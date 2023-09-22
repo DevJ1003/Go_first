@@ -1,0 +1,4 @@
+golang installation
+vs code installation
+golang extension installation in vs code
+command pallete -->  >GO:install/updates (update everything it shows)
