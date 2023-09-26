@@ -27,7 +27,7 @@ func TestDivision(t *testing.T) {
 		}
 
 		if got != tt.expected {
-			t.Errorf("Expected %f but got %f", tt.expected)
+			t.Errorf("Expected %f but got %f", tt.expected, got)
 		}
 	}
 }

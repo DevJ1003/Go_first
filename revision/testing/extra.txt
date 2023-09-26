@@ -1,0 +1,11 @@
+Note: 
+        1.In testing folder, create go module by "go mod init test"
+        2. then add module to go.work
+        3. Restart the vs code
+        4. run the program
+
+COMMANDS
+
+1. go test
+2. go test -v
+3. go test -cover
