@@ -1,0 +1,15 @@
+1. run "go mod init github.com/devj1003/mypackage" command in the packages folder
+2. go mod tidy
+3. restart the vs code
+4. run the program
+5. In go.work file, set the file name which contains package that we made
+    Example: go 1.21.1
+
+            use (
+	            ./revision/channels
+	            ./revision/packages
+            )
+
+
+Note: in import section write the package name then the package path,
+      example: helpers "github.com/devj1003/mypackage/helpers"
